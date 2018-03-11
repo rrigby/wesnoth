@@ -256,5 +256,6 @@ helper.set_wml_var_metatable = wesnoth.deprecate_api('helper.set_wml_var_metatab
 helper.set_wml_tag_metatable = wesnoth.deprecate_api('helper.set_wml_tag_metatable', 'wml.tag', 2, nil, helper.set_wml_tag_metatable)
 helper.move_unit_fake = wesnoth.deprecate_api('helper.move_unit_fake', 'wesnoth.intf.move_unit_fake', 1, nil, wesnoth.intf.move_unit_fake)
 helper.get_user_choice = wesnoth.deprecate_api('helper.get_user_choice', 'wesnoth.intf.get_user_choice', 1, nil, wesnoth.intf.get_user_choice)
+helper.modify_unit = wesnoth.deprecate_api('helper.modify_unit', 'wesnoth.units.modify', 1, nil, wesnoth.units.modify)
 
 return helper
