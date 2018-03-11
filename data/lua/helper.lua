@@ -296,5 +296,6 @@ helper.shallow_literal = wesnoth.deprecate_api('helper.shallow_literal', 'wml.sh
 helper.shallow_parsed = wesnoth.deprecate_api('helper.shallow_parsed', 'wml.shallow_parsed', 1, nil, wml.shallow_parsed)
 helper.set_wml_var_metatable = wesnoth.deprecate_api('helper.set_wml_var_metatable', 'wml.variable.proxy', 2, nil, helper.set_wml_var_metatable)
 helper.set_wml_tag_metatable = wesnoth.deprecate_api('helper.set_wml_tag_metatable', 'wml.tag', 2, nil, helper.set_wml_tag_metatable)
+helper.move_unit_fake = wesnoth.deprecate_api('helper.move_unit_fake', 'wesnoth.intf.move_unit_fake', 1, nil, wesnoth.intf.move_unit_fake)
 
 return helper
