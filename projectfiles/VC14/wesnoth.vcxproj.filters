@@ -1546,6 +1546,9 @@
     <ClCompile Include="..\..\src\preferences\lobby.cpp">
       <Filter>Preferences</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\ogl\texture.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\addon\client.hpp">
@@ -3004,6 +3007,9 @@
     <ClInclude Include="..\..\src\chat_log.hpp" />
     <ClInclude Include="..\..\src\terrain\movement.hpp">
       <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ogl\texture.hpp">
+      <Filter>OGL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
